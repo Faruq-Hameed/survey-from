@@ -1,0 +1,102 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="https://image.shutterstock.com/image-illustration/online-quiz-test-survey-checklist-600w-1119835268.jpg" width="32px" height="32px" alt="favicon" />
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 id="Survey-form">Survey Form</h1>
+            <p class="thank-you">Thank you for taking your time to give us feedback</p>
+        </header>
+
+        <div class="form-div">
+            <div class="form-a">
+                    <div> 
+                        <label for="name" class="form-group">Name</label><br>
+                        <input type="text" id="name" class="form-control" value="" placeholder="Enter your name" required />
+                    </div>
+                    <div>
+                        <label for="email" class="form-group">Email</label><br>
+                        <input type="email" id="email" class="form-control" placeholder="Enter your email" value="" required />
+                    </div>
+            </div>
+                    
+            <div class="form-b">
+                <div>
+                    <label for="age" class="form-group">Age</label><br>
+                    <select id="age" name="age" required class="form-control">
+                        <option value="" disabled selected>Select your age range</option>
+                        <option value="10yrs-15yrs">10yrs-15yrs</option>
+                        <option value="16yrs-20yrs">16yrs-20yrs</option>
+                        <option value="21yrs-25yrs">21yrs-25yrs</option>
+                        <option value="26yrs-30yrs">26yrs-30yrs</option>
+                        <option value="31yrs-35yrs">31yrs-35yrs</option>
+                        <option value="36yrs-40yrs">36yrs-40yrs</option>
+                    </select> 
+                </div>
+                <div>
+                    <p>Choose a role that best describes you</p>
+                    <select name="occupation" class="form-control">
+                        <option selected disabled value>Select Your Role</option>
+                        <option value="student">Student</option>
+                        <option value="full-time-job">Full Time Job</option>
+                        <option value="part-time-job">Part Time Job</option>
+                        <option value="prefer-to-not-say">Prefer Not To Say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+                <div class="form-group">
+                    <p>Would you recommend our product to a friend?</p>
+                    <input type="radio" id="never" name="recommend" value="never">
+                    <label for="never">Never</label><br>
+                    <input type="radio" id="maybe" name="recommend" value="maybe">
+                    <label for="maybe">Maybe</label><br>
+                    <input type="radio" id="likely" name="recommend" value="likely">
+                    <label for="likely">likely</label><br>
+                    <input type="radio" id="definitely" name="recommend" value="definitely">
+                    <label for="definately">Definately</label><br>
+                </div>
+
+                <div class="form-group">
+                    <p>Select the things you liked about our product</p>
+                    <input type="checkbox" id="ui" name="liked" value="liked" class="form-control">
+                    <label for="ui">UI</label><br>
+                    <input type="checkbox" id="features" name="liked" value="features" class="form-control">
+                    <label for="features">Features</label><br>
+                    <input type="checkbox" id="services" name="liked" value="services" class="form-control">
+                    <label for="services">Services</label><br>
+                    <input type="checkbox" id="simpleness" name="liked" value="simpleness" class="form-control">
+                    <label for="simpleness">Simpleness</label><br>
+                </div>
+
+                <div class="bottom">
+                    <div class="form-group">
+                        <div>
+                            <label for="remark">remark</label><br>
+                            <textarea id="remark" name="remark" class="form-control" placeholder="Tell us how we can improve.."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <label for="submit">Click below to submit</label><br>
+                            <input type="submit" id="submit" name="submit" class="form-control"/>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </main>
+</body>
+
+</html>

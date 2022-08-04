@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", "sans serif";
+    text-transform: capitalize;
+}
+main{
+    background-color: rgba(151, 152, 149, 0.523);
+    margin: 10% 35% 10% 35%;
+    border-radius: 15px;
+    height: 1000px;
+}
+
+header{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#Survey-form{
+    color: rgb(39, 35, 35);
+    height: 100%;
+}
+
+.thank-you{
+    /* border: 2px solid blue; */
+    /* color: rgb(76, 70, 70); */
+    margin: 8px 0px 30px 0px;
+}
+
+.form-div{
+    padding: 1px 20px;
+    background-image: linear-gradient(360deg, black, white, black);
+}
+
+.form-control, option{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border:none;
+    width: 95%;
+    border-radius: 5px;
+    outline: none;
+} 
+
+input[type="radio"], [type="checkbox"]{
+    outline: 5px solid rgb(248, 245, 245);
+    width: 15px;
+    margin-bottom: 20px;
+    margin-top:15px;
+    margin-right:5px ;
+
+}
+
+.form-group{
+    background-color: rgb(48, 47, 47);
+    color: rgb(227, 225, 225);
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+label[for="remark"], #submit{
+    border: 2px solid rgb(100, 98, 98);
+    background-image: linear-gradient(to top right, black, white);
+    border-radius: 5px;
+    margin-left: 40%;
+    font-size: 20px;
+    width: 90%;
+}
+
+textarea{
+    height:80px;
+    margin-left: 8px;
+}
+
+#submit{
+background-color:white;
+width: 30%;
+}
+
+label[for="submit"]{
+    background-color: rgb(183, 175, 175);
+    color: white;
+    font-size: 15px;
+    margin-left: 29%;
+    border-radius: 8px;
+}
+
+#submit:hover, input[type="radio"]:hover, [type="checkbox"]:hover
+    {
+ cursor: pointer;
+color: rgb(114, 153, 205);
+background-image: linear-gradient(to top right, rgb(125, 106, 106), white);
+}
+
+p{
+    height: 20px;
+    font-size: 13.1px;
+    border-radius: 5px;
+    background-image: linear-gradient(360deg, rgb(125, 106, 106), white);
+    text-shadow: 1px -1px 6px rgb(17, 17, 17);}
